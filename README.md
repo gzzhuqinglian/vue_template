@@ -2,7 +2,7 @@
 
 
 
-<!--[组件地址demo](https://gzzhuqinglian.github.io/apages/vuebase/#/index)-->
+[组件地址demo](https://gzzhuqinglian.github.io/apages/vuebase/#/index)
 
 
 **本项目的定位是基础模板来开发**
