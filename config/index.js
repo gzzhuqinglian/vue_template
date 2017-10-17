@@ -32,11 +32,12 @@ module.exports = {
         assetsPublicPath: '/',
         //设置你想要代理的路径
         proxyTable: {
-            '/v': {
+            '/api': {
                 changeOrigin: true,
                 target: 'http://www.baidu.com',
                 changeOrigin: true,
-                secure: false
+                secure: false,
+                pathRewrite: {'^/api' : ''}
             }
         },
         // CSS Sourcemaps off by default because relative paths are "buggy"

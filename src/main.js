@@ -9,7 +9,7 @@ import * as filters from '@/filters' // 全局filter
 import '@/plugins/utils'
 
 //模拟数据
-import '@/mock/index.js'  // 该项目所有请求使用mockjs模拟
+// import '@/mock/index.js'   该项目所有请求使用mockjs模拟
 
 // rem单位设置
 import '@/utils/rem.js'
